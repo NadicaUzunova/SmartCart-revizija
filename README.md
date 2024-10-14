@@ -55,15 +55,9 @@ SmartCart (pametni nakupovalni seznam) je progresivna spletna aplikacija (PWA), 
     GOOGLE_REFRESH_TOKEN=your_google_refresh_token
     ```
 
-4. **Zagon Strežnikov:** 
-    - Pojdite v mapo `REST` znotraj SmartCart mape, kjer ste klonirali repozitorij: `cd pot/do/ime_mape_projekta/SmartCart/REST`
-        - V terminalu ali ukazni vrstici poženite ukaz `node server.js`
-        - Ta korak ponovite še za `shopping-list.js` in `push-notification.js`
-
-5. **Zagon Aplikacije:** 
-    - Pojdite v mapo `PWA` znotraj SmartCart mape, kjer ste klonirali repozitorij: `cd pot/do/ime_mape_projekta/SmartCart/PWA`
-        - V terminalu ali ukazni vrstici poženite ukaz `http-server`
-        - Po zagonu aplikacije lahko dostopate do nje preko spletnega brskalnika na naslovu: [http://127.0.0.1:8080](http://127.0.0.1:8080)
+4. **Zagon Strežnikov in Aplikacije:** 
+    - V korenski mapi `cd pot/do/ime_mape_projekta/SmartCart`, znotraj terminala ali ukazni vrstici poženite ukaz `npm start`.
+    - Po zagonu aplikacije lahko dostopate do nje preko spletnega brskalnika na naslovu: [http://127.0.0.1:8080/login.html](http://127.0.0.1:8080/login.html)
 
 ## Uporabljene Tehnologije
 
@@ -137,15 +131,9 @@ SmartCart is a Progressive Web Application (PWA) intended for creating and shari
     GOOGLE_REFRESH_TOKEN=your_google_refresh_token
     ```
 
-4. **Start the Servers:** 
-    - Navigate to the `REST` folder inside the SmartCart directory where you cloned the repository: `cd path/to/project_folder/SmartCart/REST`
-        - Run the command `node server.js` in the terminal or command line.
-        - Repeat this step for `shopping-list.js` and `push-notification.js`.
-
-5. **Run the Application:** 
-    - Navigate to the `PWA` folder inside the SmartCart directory where you cloned the repository: `cd path/to/project_folder/SmartCart/PWA`
-        - Run the command `http-server` in the terminal or command line.
-        - Once the application is running, you can access it via your web browser at: [http://127.0.0.1:8080](http://127.0.0.1:8080)
+4. **Starting the Servers and Application:** 
+    - In root directory `cd path/to/project_folder/SmartCart`, inside your terminal or command line run the command `npm start`.
+    - After starting the application, you can access it through a web browser at: [http://127.0.0.1:8080/login.html](http://127.0.0.1:8080/login.html)
 
 ## Technologies Used
 
